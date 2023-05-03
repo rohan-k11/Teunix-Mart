@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+html, body{
+    height: 100%;
+    width: 100%;
+    height: 214vh;
+    background:url(images.jpg);
+    overflow-x: hidden;
+
+}
+.container{
+    /* width: 95vw; */
+    margin-left: 60px;
+    margin-right: 60px;
+
+    background-color:rgb(206, 215, 208);
+    box-shadow: rgba(0, 0, 0, 0.35)0px 5px 15px;
+    
+}
+.grid{
+    float: left;
+    width: 100%;  
+    display: flex; 
+    justify-content: space-evenly;
+}
+.grid::after{
+    content:'';
+    display:block;
+    clear: both;
+}
+header{
+    position: sticky;
+    top: 0;
+    background: white;
+}
+.flex{
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 38px;
+    display: flex;
+}
+.flexer{
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 38px;
+    /* display: flex; */
+}
+
+.left img{
+    width: 109px;
+    height: 104px
+}
+nav ul li{
+    list-style: none;
+    padding: 0 12px;
+    display: inline-block;
+    font-size: 16px;
+}
+.sarak{
+    padding:90rem !important;
+}
+
+.nav {
+    float: left;
+    padding: 10px;
+    /* height: 500px; Should be removed. Only for demonstration */
+  }
+  
+  .left {
+    width: 30%;
+    font-weight: 300;
+    /* font-size: 12px; */
+    justify-content: flex-start;
+    margin-top: 18px;
+    margin-left: 10px;
+  }
+ .right {
+    width: 30%;
+    font-weight: 300;
+    /* font-size: 12px; */
+    justify-content: flex-start;
+    margin-top: 18px;
+    margin-left: 10px;
+  }
+
+  .centre {
+    width: 20%;
+  }
+  
+  /* Clear floats after the columns */
+  .nav:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+.left{
+    display: flex;
+    justify-content: space-around;
+}
+nav{
+    display: flex;
+    
+}
+
+.right{
+    margin-left: 82px;
+    
+}
+.others ul{
+    display: flex;
+    margin-left: -53px;
+}
+.centre img{
+    height: 14vh;
+    width: 12vw;
+    margin-left: -142px;
+    margin-top: -53px;
+    
+}
+.s1{
+    margin-left: 60px;
+    margin-right:60px;
+    max-width: 900px;
+    overflow: hidden;
+}
+.s2 img{
+    height: 35vh;
+    justify-content: flex-start;
+    margin-top: 10px;
+    box-shadow:0px 0px 20px 0px #ffffff;
+}
+.s3 img{
+    
+    height: 35vh;
+    justify-content: flex-start;
+    margin-top: 10px;
+    box-shadow:0px 0px 20px 0px #ffffff;
+}
+.s4 img{
+    height: 35vh;
+    /* display: inline-block; */
+    justify-content: flex-start;
+    margin-top: 10px;
+    box-shadow:0px 0px 20px 0px #ffffff;
+}
+.s2{
+    justify-content: space-around;
+    height: 47vh;
+    background-color:rgb(255, 238, 218) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.side{
+    float: right;
+    
+}
+.s3{
+    justify-content: space-around;
+    height: 47vh;
+    background-color: rgb(255, 219, 225);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.s4{
+    justify-content: space-around;
+    height: 47vh;
+    background-color: rgb(255, 219, 255) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.gif1 img {
+    margin-left: 9vw !important;
+    margin-top: 6vh;
+    height: 80vh !important;
+    width: 80vw !important;
+
+}
+footer{
+    background-color:bisque;
+    text-align: center;
+    padding: 14px;
+}
+.centre{
+    margin-left: 12vw;
+    margin-top: 62px;
+    font-size: 28px;
+    color: blueviolet;
+    align-items: center;
+    display: flex;
+   
+}
+.c img{
+    width: 70vw;
+    margin-left: 100px;
+    /* height: 61vh; */
+}
+.zoom:hover {
+    transform: scale(1.03); 
+    background-color: rgb(198, 199, 199);
+  }
+.zoom {   
+    transition: transform .5s;    
+  }
+.foot{
+    margin-top:2rem;    
+    margin-bottom: 1rem;
+    background-color: rgb(130, 125, 125);
+}  
+ 
+.men,.kids,.women{
+    padding-top:10px;
+    margin-bottom: 5px;
+    padding-left:10px;
+    display: block  !important;
+}
